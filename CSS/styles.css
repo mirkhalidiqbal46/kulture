@@ -1,0 +1,296 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* css for Navbar starts here */
+.image-head {
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+#top-nav {
+    background-color: rgb(58, 152, 185);
+    padding: 1% 2%;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 1.1rem;
+    font-family: 'Patua One', cursive;
+    padding-left: 20px;
+    color: rgb(255 255 255);
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+
+    color: rgb(227, 154, 154);
+
+}
+
+.dropdown-item:hover {
+    background-color: rgb(227, 154, 154);
+}
+
+.navbar-brand {
+    font-size: 1.7rem;
+    font-weight: bolder;
+    font-family: 'Righteous', cursive;
+    letter-spacing: .2em;
+    padding-right: 3rem;
+}
+
+.navbar-brand:hover {
+    color: #a2c4d0;
+}
+
+#search-box {
+    background-color: #54b6d9;
+    color: white;
+    border: 0;
+    border-radius: 15px;
+    position: relative;
+    left: 48px;
+    box-shadow: 5px 5px 5px 0px rgb(81 86 87 / 50%);
+}
+
+#search-box::placeholder {
+    color: white;
+}
+
+#search-btn {
+    position: relative;
+    z-index: 88;
+    border: 0;
+    border-radius: 15px;
+    background-color: #54b6d9;
+}
+
+/* Media-queries for navigation bar */
+@media only screen and (max-width:1000px) {
+    #search-form {
+        margin-bottom: 30px;
+        margin-top: 20px;
+        position: relative;
+        left: -25px;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .image-head {
+        width: 50px;
+        height: 50px;
+    }
+
+    #top-nav {
+        padding: 0% 2%;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 1rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+}
+/* ************************************************************ */
+/* Slider */
+.carousel .carousel-item {
+    height: 460px;
+  }
+  
+  .carousel-item img {
+      position: absolute;
+      object-fit: cover;
+      top: 0;
+      left: 0;
+      min-height: 500px;
+  }
+
+
+
+/* ************************************************************************************************ */
+/* Css for banner starts here */
+#banner {
+    padding-bottom: 30px;
+}
+
+#banner-text {
+    margin-right: 8%;
+}
+
+#banner-text h1 {
+    font-size: 2.5rem;
+    font-family: 'Righteous', cursive;
+    margin-top: 150px;
+    color: #0082af;
+}
+
+#banner-text p {
+    font-size: 1rem;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-indent: 8%;
+}
+
+#banner-btn {
+    background-color: #0082af;
+    color: white;
+    border: 2px solid #0082af;
+}
+
+#banner-btn:hover {
+    background-color: #6facc0;
+}
+
+#banner-img {
+    margin-top: 50px;
+}
+
+#banner-img img {
+    border-radius: 25px;
+    height: 600px;
+}
+
+/* Media queries for banner */
+@media only screen and (max-width:1400px) {
+    #banner-text h1 {
+        margin-top: 90px;
+    }
+
+    #banner-img img {
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    #banner {
+        padding-bottom: 30px;
+    }
+
+    #banner-text h1 {
+        margin-top: 60px;
+    }
+
+    #banner-img {
+        margin-top: 60px;
+    }
+
+    #banner-img img {
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    #banner-img {
+        display: none;
+    }
+}
+
+/* ************************************************************************************** */
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    padding: 0;
+}
+
+#sec-module{
+    position: relative;
+    isolation: isolate;
+}
+
+#sec-module::after{
+    content: '';
+    background-image:linear-gradient(45deg,#12c2e9,#c471ed,#f64f59);
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    transform: skewY(-5deg);
+}
+
+.sec-text h1{
+    color: #fff;
+    font-family: 'Righteous', cursive;
+    line-height: 50px;
+}
+
+.sec-text p{
+    color: #fff;
+    font-size: 1.2rem;
+    margin-top: 30px;
+}
+
+form h2{
+    background-image:linear-gradient(45deg,#12c2e9,#c471ed,#f64f59);
+    color: #fff;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+/* Media queries for sec-module */
+@media only screen and (max-width:1000px){
+    .mx-auto{
+        margin-top: 20px;
+    }
+}
+
+/* Css for album-section starts here */
+.album-text h1{
+    color: #bd1b1b;
+    font-family: 'Righteous', cursive;
+    font-size: 2.6rem;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.album-text p{
+    font-size: 1rem;
+    color:#37a9d1;
+} 
+
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 200px;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  
+  .responsive {
+    padding: 10px 10px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+

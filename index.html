@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kalture</title>
+
+    <!-- Font-families -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+
+
+    <!-- Bootstrap.min.css file -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+
+    <!-- External css file -->
+    <link rel="stylesheet" href="CSS\styles.css">
+
+    <!-- favicon -->
+    <link rel="icon" href="favicon.ico">
+
+
+</head>
+
+<body>
+    <!-- Navbar starts here -->
+    <nav class="navbar navbar-expand-lg navbar-dark" id="top-nav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="Images\logo.jpg" alt="logo"
+                    class="img-fluid image-head">KALTURE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Archive
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Indian Art</a></li>
+                            <li><a class="dropdown-item" href="#">Indian Culture</a></li>
+                            <li><a class="dropdown-item" href="#">Indian Music</a></li>
+                            <li><a class="dropdown-item" href="#">Literary Art</a></li>
+                            <li><a class="dropdown-item" href="#">Contemporary Art</a></li>
+                        </ul>
+
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex" id="search-form" role="search">
+
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
+                        id="search-box">
+
+                    <button class="btn btn-outline-success" type="submit" id="search-btn"><i
+                            class="bi bi-search"></i></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Our slider starts here -->
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade ">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Images\slider5.jpg" class="d-block w-100 img-fluid" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>The Taj Mahal</h5>
+                    <p>The Taj Mahal is an Islamic ivory-white marble mausoleum on the right bank of the river Yamuna in
+                        the Indian city of Agra.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Images\slider2.jpg" class="d-block w-100 img-fluid" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Petro-rock glyph Art</h5>
+                    <p>In archaeology, rock art is human-made markings placed on natural surfaces, typically vertical
+                        stone surfaces. </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Images\slider6.jpg" class="d-block w-100 img-fluid" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Spices & Condiments</h5>
+                    <p>The principal Indian spices are coriander, cumin, turmeric, black mustard, and cayenne pepper.
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Images\slider4.jpg" class="d-block w-100 img-fluid" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Tribal Folk Dance</h5>
+                    <p>Dance in India comprises numerous styles of dances, generally classified as classical or folk.
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Images\slide1.jpg" class="d-block w-100 img-fluid" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Hawa-Mahal</h5>
+                    <p>The Hawa Mahal is a palace in the city of Jaipur, India. Built from red and pink sandstone.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <!-- Main-Banner starts here -->
+    <div class="container-fluid">
+
+        <div class="row justify-content-center" id="banner">
+            <div class="col-md-6 col-10" id="banner-text">
+                <h1 class="display-5 fw-bold lh-1 mb-3">“Culture is a way of coping with the world by defining it in
+                    detail."</h1>
+                <p class="lead">Indian
+                    art consists of a variety of art forms, including painting, sculpture, pottery, and textile arts
+                    such as woven silk. Geographically, it spans the entire Indian subcontinent, including what is now
+                    India, Pakistan, Bangladesh, Sri Lanka, Nepal, and at times eastern Afghanistan. <br> A strong sense
+                    of design is characteristic of Indian art and can be observed in its modern and traditional forms
+                </p>
+                <button type="button" class="btn btn-md " id="banner-btn">Read More</button>
+            </div>
+            <div class="col-md-4" id="banner-img">
+                <img src="Images\banner.jpg" alt="art-pic" class="img-fluid" width="500">
+            </div>
+        </div>
+    </div>
+    <!-- login-banner -->
+
+    <section id="sec-module" style="margin-top: 80px;">
+        <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+            <div class="row align-items-center g-lg-5 py-5">
+                <div class="col-lg-7 text-center text-lg-start sec-text">
+                    <h1 class="display-6 fw-bold mb-3">“Art washes away from the soul the dust of everyday life.”
+                    </h1>
+                    <p class="col-lg-10 ">The history of Indian art is exceptionally long and superbly impressive.
+                        It can be divided into four main periods: pre-historic, ancient, the era of Islamic
+                        ascendancy – or the medieval period – and art from the colonial times.</p>
+                </div>
+                <div class=" col-md-10 mx-auto my-3 col-lg-5 sec-form">
+                    <form class="p-4 p-md-5 border rounded-3 bg-light">
+                        <h2 style="font-size: 1.1rem;" class="py-2 fw-bold text-center">Sign-Up <br> & <br> Know
+                            Your Art & Culture</h2>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Email address</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                            <label for="floatingPassword">Password</label>
+                        </div>
+                        <div class="checkbox mb-3">
+                            <label>
+                                <input type="checkbox" value="remember-me"> Remember me
+                            </label>
+                        </div>
+                        <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
+                        <hr class="my-4">
+                        <small class="text-muted">By clicking Sign up, you agree to the terms of use.</small>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cultural album -->
+
+
+    <section class=" text-center container">
+        <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto album-text">
+                <h1 class="fw-light">Art & Culture Gallery</h1>
+                <p class="lead">“The first step to controlling your world is to control your culture. To model
+                    and demonstrate the kind of world you demand to live in. to write the books. Make the music.
+                    Shoot the films. Paint the art.”</p>
+                <p>
+                    <a href="#" class="btn btn-primary my-2">Contribute to Preserve Art & Culture</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="Images\album1.avif">
+                    <img src="Images\album1.avif" alt="Cinque Terre" width="600" height="400">
+                </a>
+                <div class="desc">Glass Mosque with different colors</div>
+            </div>
+        </div>
+
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="Images\album2.avif">
+                    <img src="Images\album2.avif" alt="Forest" width="600" height="400">
+                </a>
+                <div class="desc">Stone engraved structure of the past</div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="Images\album3.avif">
+                    <img src="Images\album3.avif" alt="Northern Lights" width="600" height="400">
+                </a>
+                <div class="desc">Modern architectural muslim design</div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="Images\album4.avif">
+                    <img src="Images\album4.avif" alt="Northern Lights" width="600" height="400">
+                </a>
+                <div class="desc">Hagia sophia mueseum now a mosque</div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="Images\album5.avif">
+                    <img src="Images\album5.avif" alt="Northern Lights" width="600" height="400">
+                </a>
+                <div class="desc">Stone engaved house now dilapidated</div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="Images\album6.avif">
+                    <img src="Images\album6.avif" alt="Northern Lights" width="600" height="400">
+                </a>
+                <div class="desc">Taj Mahal bulit by Shah Jahan for his wife</div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="Images\album7.avif">
+                    <img src="Images\album7.avif" alt="Northern Lights" width="600" height="400">
+                </a>
+                <div class="desc">Jamia masjid built by the Mughals</div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="Images\album8.avif">
+                    <img src="Images\album8.avif" alt="Northern Lights" width="600" height="400">
+                </a>
+                <div class="desc">Stone carved house with wooden pillars</div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="Images\album9.avif">
+                    <img src="Images\album9.avif" alt="Northern Lights" width="600" height="400">
+                </a>
+                <div class="desc">Hawa mahal with best architectural design</div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="Images\album10.avif">
+                    <img src="Images\album10.avif" alt="Northern Lights" width="600" height="400">
+                </a>
+                <div class="desc">Snady fort built by marathas in Rajasthan</div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="Images\album11.avif">
+                    <img src="Images\album11.avif" alt="Northern Lights" width="600" height="400">
+                </a>
+                <div class="desc">Golden temple Rajasthan built by Sikhs</div>
+            </div>
+        </div>
+
+        <div class="responsive">
+            <div class="gallery">
+                <a target="_blank" href="Images\album12.avif">
+                    <img src="Images\album12.avif" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc">An ancient temple built of a single stone</div>
+            </div>
+        </div>
+
+        <div class="clearfix"></div>
+    </div>
+
+    <!-- Contact section starts here -->
+    <div class="container-fluid">
+        <div class="row  justify-content-center pt-2 pb-5 mt-5" id="contact-sec">
+            <div class="col-md-5 col-11 mt-5">
+                <h3 class="mb-4" style="color:crimson; text-decoration: underline;">Feel Free To Contact Us</h3>
+
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Message:</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-danger">Submit</button>
+                </form>
+
+            </div>
+            <div class="col-md-5 mt-5 mx-2">
+                <h3 class="mb-4 mx-5" style="color:crimson; text-decoration: underline;">Address:</h3>
+                <p class="mx-3">
+                    148, Shopian Kashmir <br>
+                    Jammu & Kashmir, 192303 <br>
+                    <i class="bi bi-telephone"></i> : 01933-261713
+                </p>
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3318.9813384104677!2d74.83800624960976!3d33.70943179307243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38e1fa500fd83c4b%3A0xca0b844b3f13268d!2sGagran%2C%20Shopian%20192303!5e0!3m2!1sen!2sin!4v1677491085197!5m2!1sen!2sin"
+                    style="width:100%;" height="280" style="border:0;" allowfullscreen=""  loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <div class="container-fluid mb-0 " style="padding-bottom: 0 !important;">
+        <div class="row justify-content-center bg-dark text-white pt-2 pb-5 px-5">
+            <div class="col-md pt-4">
+                <h5>KULTURE</h5>
+                <p>The history of Indian art <br> is exceptionally long and <br> superbly impressive.</p>
+            </div>
+            <div class="col-md pt-4">
+                <h5 class="pb-2">Important Links</h5>
+                <p>
+                    <a href="#" class="link-light text-decoration-none">Home</a><br>
+                    <a href="#" class="link-light text-decoration-none">About</a><br>
+                    <a href="#" class="link-light text-decoration-none">Archive</a><br>
+                    <a href="#" class="link-light text-decoration-none">Contact</a>
+                </p>
+            </div>
+            <div class="col-md pt-4">
+                <h5 class="pb-2">Contact Us:</h5>
+                <p>
+                    148, Shopian Kashmir <br>
+                    Jammu & Kashmir, 192303 <br>
+                    <i class="bi bi-telephone"></i> : 01933-261713
+                </p>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="row bg-secondary text-white text-center p-2">
+            <div class="col-12">
+                <p>Copyright &copy; Kulture-2023| All Rights Reserved</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- bootstrap.bundle.min.js file -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
